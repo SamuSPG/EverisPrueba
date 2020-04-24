@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class metodosextra {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static int suma(int num1, int num2) {
+		
 		
 	Scanner teclado = new Scanner(System.in);
 	
-	int num1 = 0;
-	int num2 = 0;
+	num1 = 0;
+	num2 = 0;
 	int result;
 		
 	System.out.println("Introduce el primer número:");			
@@ -22,9 +22,10 @@ public class metodosextra {
 	result = num1+num2;
 
 	System.out.println("La suma es " + num1 + " + " + num2 + " = " + result);
+	return result;	
 
 	}
-	public int suma (int a, int b) {
+	public static int Resta (int a, int b) {
     	a= 2; 
     	b = 2;
     	int result;
